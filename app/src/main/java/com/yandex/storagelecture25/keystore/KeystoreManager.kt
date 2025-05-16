@@ -24,6 +24,7 @@ class KeystoreManager {
     )
         .setBlockModes(BLOCK_MODE)
         .setEncryptionPaddings(ENCRYPTION_PADDING)
+        .setIsStrongBoxBacked(true)
         .setKeySize(256)
         .build()
 
